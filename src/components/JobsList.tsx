@@ -2,24 +2,19 @@ import { useEffect, useState } from "react";
 import { getJobs } from "../api/api";
 import { IJob } from "../models";
 import Job from "./Job";
+import JobDetails from "./JobDetails";
 import Loader from "./Loader";
 import Paginator from "./Paginator";
 
-const JobsList = () => {
+interface JobsListProps {
+    jobs: IJob[]
+    loading: boolean
+}
 
-    const [jobs, setJobs] = useState<IJob[]>([]);
-    const [loading, setLoading] = useState<boolean>(false);
+const JobsList = ({jobs, loading}:JobsListProps) => {
+
     const [currentPage, setCurrentPage] = useState<number>(1);
     const [jobsPerPage] = useState<number>(5)
-
-    useEffect(() => {
-        getJobs()
-        .then((res) => {
-            setJobs(res.data)
-            setLoading(true)
-            console.log(res.data);  
-        })
-    }, [])
 
     const indexOfLastJob = currentPage * jobsPerPage;
     const indexOfFirstJob = indexOfLastJob - jobsPerPage;
