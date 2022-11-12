@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/http//nazar1881.github.io/test-task/static/css/main.fe0e987b.css",
-    "main.js": "/http//nazar1881.github.io/test-task/static/js/main.3bb83c00.js",
-    "static/media/rating.svg": "/http//nazar1881.github.io/test-task/static/media/rating.88da66530feeeecea70271119c2716f3.svg",
-    "static/media/loader.svg": "/http//nazar1881.github.io/test-task/static/media/loader.879906088658e6c0e1ba645f308163bb.svg",
-    "static/media/share.svg": "/http//nazar1881.github.io/test-task/static/media/share.7381a5999554764f3ce8249d49192539.svg",
-    "index.html": "/http//nazar1881.github.io/test-task/index.html",
-    "static/media/arrow.svg": "/http//nazar1881.github.io/test-task/static/media/arrow.81b0f26cb6486aa14408fc44c9104536.svg",
-    "static/media/saveJobLogo.svg": "/http//nazar1881.github.io/test-task/static/media/saveJobLogo.7dfe64ee3e06e0c3fcc1227b459beb66.svg",
-    "static/media/jobLocation.svg": "/http//nazar1881.github.io/test-task/static/media/jobLocation.1c093ca173a538132f1ce31ab6296061.svg",
-    "main.fe0e987b.css.map": "/http//nazar1881.github.io/test-task/static/css/main.fe0e987b.css.map",
-    "main.3bb83c00.js.map": "/http//nazar1881.github.io/test-task/static/js/main.3bb83c00.js.map"
+    "main.css": "/test-task/static/css/main.fe0e987b.css",
+    "main.js": "/test-task/static/js/main.fba7bf0a.js",
+    "static/media/rating.svg": "/test-task/static/media/rating.88da66530feeeecea70271119c2716f3.svg",
+    "static/media/loader.svg": "/test-task/static/media/loader.879906088658e6c0e1ba645f308163bb.svg",
+    "static/media/share.svg": "/test-task/static/media/share.7381a5999554764f3ce8249d49192539.svg",
+    "index.html": "/test-task/index.html",
+    "static/media/arrow.svg": "/test-task/static/media/arrow.81b0f26cb6486aa14408fc44c9104536.svg",
+    "static/media/saveJobLogo.svg": "/test-task/static/media/saveJobLogo.7dfe64ee3e06e0c3fcc1227b459beb66.svg",
+    "static/media/jobLocation.svg": "/test-task/static/media/jobLocation.1c093ca173a538132f1ce31ab6296061.svg",
+    "main.fe0e987b.css.map": "/test-task/static/css/main.fe0e987b.css.map",
+    "main.fba7bf0a.js.map": "/test-task/static/js/main.fba7bf0a.js.map"
   },
   "entrypoints": [
     "static/css/main.fe0e987b.css",
-    "static/js/main.3bb83c00.js"
+    "static/js/main.fba7bf0a.js"
   ]
 }
