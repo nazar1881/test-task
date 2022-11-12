@@ -34,7 +34,7 @@ const JobDetails = ({job}:JobDetails) => {
                     <button className="mr-7 xs:mr-4"><img className="inline-block mr-3 xs:mr-1" src={`${saveJobBtn}`}/>Save to my list</button>
                     <button className=""><img className="inline-block mr-3 xs:mr-1" src={`${shareBtn}`}/>Share</button>
                 </div>
-            <button className="py-3 px-5 bg-[#3A4562] text-white font-semibold rounded-lg shadow-md sm:inline-block xs:hidden hover:bg-[#ffffff] hover:text-[#3A4562] hover:font-bold focus:ring-opacity-75 transition duration-150 ease-out hover:ease-in my-10">Aply now</button>
+            <button className="py-3 px-5 bg-[#3A4562] text-white font-semibold rounded-lg shadow-md sm:inline-block xs:hidden hover:bg-[#ffffff] hover:text-[#3A4562] hover:font-bold focus:ring-opacity-75 transition duration-150 ease-out hover:ease-in my-10">Apply now</button>
             <div>
                 <div className="sm:flex sm:justify-between mb-2">
                     <h2 className="text-xl font-bold text-[#3A4562] sm:w-2/3">{job.title}</h2>
@@ -65,7 +65,7 @@ const JobDetails = ({job}:JobDetails) => {
                     <li>Short-term and Long-term Disability Insuranceand life insurance</li>
                 </ul>
                 <div className="flex xs:justify-center sm:block">
-                <button className="py-3 px-5 bg-[#3A4562] text-white font-semibold rounded-lg shadow-md hover:bg-[#ffffff] hover:text-[#3A4562] hover:font-bold focus:ring-opacity-75 transition duration-150 ease-out hover:ease-in my-10">Aply now</button>
+                <button className="py-3 px-5 bg-[#3A4562] text-white font-semibold rounded-lg shadow-md hover:bg-[#ffffff] hover:text-[#3A4562] hover:font-bold focus:ring-opacity-75 transition duration-150 ease-out hover:ease-in my-10">Apply now</button>
                 </div>
                 
                 <div className="border-b-2">
