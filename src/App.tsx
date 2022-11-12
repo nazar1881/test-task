@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from "react";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import { getJobs } from './api/api';
 import JobDetailsContainer from './components/JobDetailsContainer';
 import JobList from './components/JobsList';
@@ -21,14 +21,14 @@ function App() {
   }, [])
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="container mx-auto max-w-6xl pt-5"> 
         <Routes>
           <Route path='/' element={<JobList jobs={jobs} loading={loading}/>}/>
           <Route path='job-details/:jobId' element={<JobDetailsContainer jobs={jobs}/>}/>
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
