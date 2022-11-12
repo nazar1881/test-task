@@ -74,18 +74,18 @@ const JobDetails = ({job}:JobDetails) => {
                 <div>
                     <h3 className="text-[#3A4562] my-5">Employment type</h3>
                     <div className="flex">
-                        {job.employment_type.map(et => <p className="text-[#435da4] text-sm font-bold rounded-lg border border-[#55699E]  bg-[#A1B1DB] w-[150px] py-3 text-center mr-2">{et}</p>)}
+                        {job.employment_type.map((et, index) => <p key={index} className="text-[#435da4] text-sm font-bold rounded-lg border border-[#55699E]  bg-[#A1B1DB] w-[150px] py-3 text-center mr-2">{et}</p>)}
                     </div>
                     <h3 className="text-[#3A4562] my-5">Benefits</h3>
                     <div className="flex">
-                        {job.benefits.map(et => <p className="text-[#988B49] text-sm font-bold rounded-lg border border-[#FFCF00]  bg-[#FFCF0026] w-[150px] py-3 text-center mr-2">{et}</p>)}
+                        {job.benefits.map((et, index) => <p key={index} className="text-[#988B49] text-sm font-bold rounded-lg border border-[#FFCF00]  bg-[#FFCF0026] w-[150px] py-3 text-center mr-2">{et}</p>)}
                     </div>
                 </div>
                 <div className="border-b-2">
                     <h1 className="text-2xl font-bold text-[#3A4562] mb-4 mt-10">Attached images</h1>
                 </div>
                 <div className="flex mt-5 mb-24">
-                {job.pictures.map(pic => <img className="sm:h-[130px] sm:w-[200px] sm:mr-6 rounded-lg xs:mr-3 xs:w-[270px] xs:h-[90px]" src={`${pic}`}></img>)}
+                {job.pictures.map((pic, index) => <img key={index} className="sm:h-[130px] sm:w-[200px] sm:mr-6 rounded-lg xs:mr-3 xs:w-[270px] xs:h-[90px]" src={`${pic}`}></img>)}
                 </div>
                 <NavLink to={'/'} className="bg-[#c6cee1] text-[#3B4564] lg:ml-[-70px] p-3 rounded-lg hover:bg-[#b4ccff] smd:inline-block xs:hidden"><img src={arrow} className="inline-block mr-5"></img>Return to job bord</NavLink>
             </div>

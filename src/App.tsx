@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from "react";
-import { BrowserRouter, Route, Routes, useParams } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { getJobs } from './api/api';
 import JobDetailsContainer from './components/JobDetailsContainer';
 import JobList from './components/JobsList';
@@ -17,7 +17,6 @@ function App() {
       .then((res) => {
           setJobs(res.data)
           setLoading(true)
-          console.log(res.data);  
     })
   }, [])
 
